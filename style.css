@@ -15,6 +15,8 @@
     --border-color: hsl(228, 99%, 98%);
     --body-color: #fff;
     --container-color: #fff;
+
+    --dark-vio: #0C134F;
   
 /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
@@ -197,9 +199,17 @@ input, button{
     }
 
   }
+
   /* Change background header */
+  .scrool-header{
+    background-color: var(--body-color);
+    box-shadow: 0, 1px, 4px hsla(252, 54%, 35%, 0.1);
+  }
   
-  
+  .scrool-header .nav__logo{
+    color: var(--first-color);
+  }
+
   /* Active link */
   
   
@@ -305,8 +315,27 @@ input, button{
     box-shadow: 0, 16px, 32px hsla(252, 54%, 35%, 0.25);
   }
   /*=============== BUTTON ===============*/
-  
-  
+  .button{
+    display: inline-block;
+    background:linear-gradient(90deg, hsl(308,47%, 85%), hsl(308,55%, 85%)) ;
+    color: var(--text-color);
+    padding: 14px 28px;
+    border-radius: .5rem;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    box-shadow: 0, 16px, 32px hsla(252, 54%, 35%, 0.25);
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background: var(--dark-vio);
+    color: var(--body-color);
+  }
+
+  .nav__button{
+    display: none;
+  }
+
   /*=============== LOGOS ===============*/
   
   
