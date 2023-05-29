@@ -295,17 +295,8 @@ input, button{
     justify-content: center;
   }
 
-  .home__orbe{
-    width: 285px;
-    height: 195px;
-    background: linear-gradient(180deg, hsl(245, 55%, 72%) 93%,
-    hsl(259, 30%, 59%) 100% );   
-    border-radius: 150px 150px 0 0;
-    
-  }
-
   .home__img{
-    position: absolute;
+    position: relative;
     width: 280px;
     height: 210px; 
     overflow: hidden;
@@ -506,8 +497,11 @@ input, button{
     padding: 1.25rem 2.5rem 0 2.75rem;
   }
 
-
-
+  .value__accordion-content{
+    overflow: hidden;
+    height: 0;
+    transition: all .25s ease;
+  }
 
   /*Rotate icon and add shadows*/
   
