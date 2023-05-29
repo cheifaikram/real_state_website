@@ -347,12 +347,12 @@ input, button{
 
   .logo__img img{
     height: 150px;
-    opacity: .2;
+    opacity: .4;
     transition: .3s;
   }
 
   .logo__img img:hover{
-    opacity: 0.9;
+    opacity: 0.8;
   }  
   /*=============== POPULAR ===============*/
   
