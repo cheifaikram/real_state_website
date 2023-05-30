@@ -523,6 +523,7 @@ input, button{
   /*=============== CONTACT ===============*/
   .contact__container{
     row-gap: 2rem;
+
   }
 
   .contact__images{
@@ -550,13 +551,13 @@ input, button{
   .contact__card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:1.25rem .75rem;
+    gap: 1.25rem .5rem;
   }
   
   .contact__card-box{
     background-color: var(--body-color);
     border: 2px solid var(--border-color);
-    padding: 1.25rem .75rem;
+    padding: 1.25rem .5rem;
     border-radius: .5rem;
     transition: .3s;
   }
@@ -575,13 +576,10 @@ input, button{
     border-radius: 6px;
     font-size: 1.25rem;
     color: var(--first-color);
-    
-    margin-right:0.75rem;
-    
   }
 
   .contact__card-title{
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
     
   }
 
@@ -590,8 +588,8 @@ input, button{
   }
 
   .contact__card-button{
-    font-size: var(--small-font-size);
-    padding: 14px 0;
+    font-size: var(--smaller-font-size);
+    padding: 8px 0;
     width: 100%;
     border-radius: .5rem;
     background: var(--first-color-lighten);
@@ -609,8 +607,39 @@ input, button{
     box-shadow: 0 12px 32px hsla(228, 66%, 45%, .1);
   }
   /*=============== SUBSCRIBE ===============*/
+  .subscribe{
+    padding: 2.5rem 0;
+  }
+
+  .subscribe__container{
+    background-color: var(--first-color);
+    padding: 3rem 2rem;
+    border-radius: 1.25rem;
+    border: 6px solid var(--first-color-light);
+    text-align: center;
+  }
+
+  .subscribe__title{
+    font-size: var(--h2-font-size);
+    color: #fff;
+    margin-bottom: 1rem;
+  }
   
-  
+  .subscribe__description{
+    color: rgb(230, 230, 230);
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+  }
+
+  .subscribe__botton{
+    border: 2px solid white;
+    background: var(--first-color);
+    font-size:var(--small-font-size);
+  }
+
+  .subscribe__botton:hover{
+    background-color: var(--first-color);
+  }
   /*=============== FOOTER ===============*/
   
   
