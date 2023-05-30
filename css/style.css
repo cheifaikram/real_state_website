@@ -211,7 +211,12 @@ input, button{
   } 
 
   /* Active link */
-  
+  .active-link{
+    color: white;
+    background:linear-gradient(101deg, hsl(245, 41%, 54%) 15%,
+    hsl(259,55%,69%));
+    box-shadow: 0, 4px, 8px hsla(252, 54%, 35%, 0.25);
+  }
   
   /*=============== HOME ===============*/
   .home{
