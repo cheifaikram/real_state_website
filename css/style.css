@@ -440,7 +440,7 @@ input, button{
     box-shadow: 0 16px 32px hsla(218, 78%, 71%, 0.25);
   } 
 
-  .value-description{
+  .value__description{
     font-size: var(--small-font-size);
     margin-bottom: 2rem;
   }
@@ -504,8 +504,22 @@ input, button{
   }
 
   /*Rotate icon and add shadows*/
+  .accordion-open{
+    box-shadow: 0 12px 32px hsla(228, 66%, 45%, .2);
+  }
+
+  .accordion-open .value__accordion-icon{
+    box-shadow: 0 4px 4px hsla(228, 66%, 45%, .2);
+  }
   
-  
+  .accordion-open .value__accordion-arrow{
+    box-shadow: 0 2px 4px hsla(228, 66%, 45%, .2);
+  }
+
+  .accordion-open .value__accordion-arrow i{
+    transform: rotate(-180deg);
+  }
+
   /*=============== CONTACT ===============*/
   
   
