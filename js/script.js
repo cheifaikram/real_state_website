@@ -15,10 +15,34 @@ var swiperPopular = new Swiper(".popular__container", {
     slidesPerview: 'auto',
     loop:true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
   });
+
+/*=============== NEW SWIPER ===============*/
+let newSwiper = new Swiper(".new-swiper", {
+    spaceBetween: 24,
+    grabCursor:true,
+    slidesPerview: 'auto',
+    loop:true,
+
+    breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        }, 
+        1023: {
+            slidesPerView: 3,
+        }
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+});
 
 /*=============== VALUE ACCORDION ===============*/
 const accoridionItems = document.querySelectorAll('.value__accordion-item');
