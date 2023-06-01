@@ -9,8 +9,7 @@ window.addEventListener('scroll', scrollHeader);
 
 /*=============== SWIPER POPULAR ===============*/
 var swiperPopular = new Swiper(".popular__container", {
-    spaceBetween: 32,
-    grabCursor:true,
+    spaceBetween: 20,
     centeredSlides: true,
     slidesPerview: 'auto',
     loop:true,
@@ -23,7 +22,6 @@ var swiperPopular = new Swiper(".popular__container", {
 /*=============== NEW SWIPER ===============*/
 let newSwiper = new Swiper(".new-swiper", {
     spaceBetween: 24,
-    grabCursor:true,
     slidesPerview: 'auto',
     loop:true,
 

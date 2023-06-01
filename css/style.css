@@ -458,19 +458,21 @@ body.dark-theme{
   }
 
   .popular__card{
-    width: 290px;
+    width: 280px;
     height:400px;
     background-color: var(--container-color);
     padding: 1rem 1rem 1.5rem;
     border-radius: 1.5rem;
     margin: 0 auto;
     transition: .4s;
+
+    border: 1px solid black;
   }
 
   .popular__img{
     border-radius: 1rem;
     margin-bottom: 1rem;
-    width:  300px;
+    width:  100%;;
     height: 200px;
     object-fit: cover;
   }
